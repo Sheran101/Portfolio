@@ -562,10 +562,15 @@ form button:hover {
 /*go top button*/
 .gotopbtn{
     position:fixed;
-    width:10px;
-    height:10px;
+    width:40px;
+    height:40px;
     background:white;
-    bottom: 40px;
-    right:40px;
+    bottom: 30px;
+    right:30px;
+}
 
+.gotopbtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
